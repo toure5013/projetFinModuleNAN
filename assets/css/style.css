@@ -1,0 +1,29 @@
+/*BISMILAHI RAHMANI RAHIM*/
+/*ALAHOUMA SOLI ALA MOUHALIMANA WA ALI MOUHALIMANA WA ADJIL FARADJAHOUM*/
+body{
+  background: url("../img/main5_thumb.jpeg") center no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.formulaireConsult{
+  justify-content: space-between;
+  margin-top:10px;
+  display:flex;
+}
+
+.formulaireConsult input{
+  display: block;
+  margin: 0 2px 0 2px
+}
+
+@media screen and (max-width: 768px) {
+  .menuEtaler{
+    display: none;
+  }
+}
+.#carouselPub{
+  margin:2% auto 2% 10%;
+  width:200px;
+}
