@@ -1,3 +1,5 @@
+<!-- /*BISMILAHI RAHMANI RAHIM*/
+/*ALAHOUMA SOLI ALA MOUHALIMANA WA ALI MOUHALIMANA WA ADJIL FARADJAHOUM*/ -->
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -19,9 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/stylePrincpale.css" rel="stylesheet">
-
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Open water Tourisme</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <!-- <ul class="nav navbar-nav navbar-right">
@@ -53,7 +53,8 @@
           <form class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Départ...">
             <input type="text" class="form-control" placeholder="Arrivé...">
-            <input type="button" class="btn btn-success form-control" value="Go">
+            <input type="select" class="form-control" placeholder="Mois">
+            <input type="button" class="btn btn-success form-control" value="Rechercher">
           </form>
         </div>
       </div>
@@ -61,13 +62,13 @@
     <div class="container-fluid" id="divPrincipal"><!--divPrincipal  -->
       <div class="row" id="differentSite">  <!-- Row1 -->
         <div class="col-sm-3 col-md-2 sidebar">
-          <ul class="nav nav-sidebar" style="background : #66ff66">
+          <ul class="nav nav-sidebar" style="background:url('assets/img/services/article-image-2.jpg') center;">
             <li class="active"><a href="#"> <strong style="text-align:center"> Bateau en cours </strong> <span class="sr-only">(current)</span></a></li>
             <li style="text-align:center">
                 <a href="#"><strong> Côte d'voire</strong> </a>
                 <div class="progress">
           				<div class="progress-bar progress-bar-striped progress-bar-danger" role="progressbar" style="width:50%" title="En route"
-          				aria-valuemin="0" aria-valuemax="100" aria-valuenow="30">En route
+          				aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">En route
           					<span class="sr-only"></span>
           				</div>
 			           </div>
@@ -84,35 +85,35 @@
             <li style="text-align:center">
                 <a href="#"><strong>Ghana</strong> </a>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-info" role="progressbar" style="width:10%" title="En route"
-                  aria-valuemin="0" aria-valuemax="100" aria-valuenow="10">Débute la croisière
+                  <div class="progress-bar progress-bar-striped progress-bar-info" role="progressbar" style="width:30%" title="En route"
+                  aria-valuemin="0" aria-valuemax="100" aria-valuenow="30">Débute
                     <span class="sr-only"></span>
                   </div>
                  </div>
             </li>
           </ul>
-          <ul class="nav nav-sidebar" style="background:#999999;">
+          <ul class="nav nav-sidebar" style="background:url('assets/img/services/article-image-2.jpg') center;">
             <li class="active" ><a href="#"> <strong>Heure d'arrivée </strong> <span class="sr-only">(current)</span></a></li>
             <li style="text-align:center">
-                <a href="#"><strong> Côte d'voire</strong> </a>
+                <a href="#"><strong class="btn btn-success"> Côte d'voire</strong> </a>
                 <div class="progress">
           				<div class="progress-bar progress-bar-striped progress-bar-danger" role="progressbar" style="width:100%" title="En route"
-          				aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">En route
+          				aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">Arrive dans 7jours 24h...
           					<span class="sr-only"></span>
           				</div>
 			           </div>
             </li>
             <li style="text-align:center">
-                <a href="#"><strong>Ghana</strong> </a>
+                <a href="#"><strong class="btn btn-success">Ghana</strong> </a>
                 <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-info" role="progressbar" style="width:100%" title="En route"
-                  aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">Arrive dans 10jours 3h...
+                  aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">Arrive dans 13jours 3h...
                     <span class="sr-only"></span>
                   </div>
                  </div>
             </li>
             <li style="text-align:center">
-                <a href="#"><strong>Etats Unis</strong> </a>
+                <a href="#"><strong class="btn btn-success">Etats Unis</strong> </a>
                 <div class="progress">
                   <div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" style="width:100%" title="En route"
                   aria-valuemin="0" aria-valuemax="100" aria-valuenow="100">Arrive dans 2h à...
@@ -120,15 +121,10 @@
                   </div>
                  </div>
             </li>
-            <!-- <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
+            <li><a href="" style="color:#fff">Plus d'info</a></li>
+            <li><a href="">Réservation</a></li>
+            <li><a href="">Plus de navigation</a></li>
           </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul> -->
         </div><!--Fin   <div class="col-sm-3 col-md-2 sidebar">  -->
           <!--------------------------------------------------------------------
               FIN DE LA BAR DE DROITE DES BATEAU EN COURS ET HEURES D'ARRIVE
@@ -150,31 +146,31 @@
               <div class="item active">
                 <img src="assets/img/carousel/carousel1.png" alt="Los Angeles" style="align:center">
                 <div class="carousel-caption">
-                  <h3>Los Angeles</h3>
-                  <p>LA is always so much fun!</p>
+                  <h3>Bateau Ruby</h3>
+                  <p>L'intérieur est fun! Venez decouvrir!</p>
                 </div>
               </div>
 
               <div class="item">
                 <img src="assets/img/carousel/carousel2.png" alt="Chicago" style="width:100%;">
                 <div class="carousel-caption">
-                  <h3>Chicago</h3>
-                  <p>Thank you, Chicago!</p>
+                  <h3>Paysage chinois</h3>
+                  <p>La technologie des pêcheurs choinois, vous surpasera!</p>
                 </div>
               </div>
 
               <div class="item">
                 <img src="assets/img/carousel/carousel3.png" alt="New York" style="width:100%;">
                 <div class="carousel-caption">
-                  <h3>New York</h3>
-                  <p>We love the Big Apple!</p>
+                  <h3>L'eau de la zone montagneuse</h3>
+                  <p>Zone plein de decouverte!</p>
                 </div>
               </div>
               <div class="item">
                 <img src="assets/img/carousel/carousel4.png" alt="New York" style="width:100%;">
                 <div class="carousel-caption">
-                  <h3>New York</h3>
-                  <p>We love the Big Apple!</p>
+                  <h3>Bateau Luxe</h3>
+                  <p>L'intérieur est absolument magnifique, venez decouvrir!</p>
                 </div>
               </div>
             </div><!-- fermeture carousel-inner -->
@@ -201,25 +197,25 @@
               <span class="text-muted">
                   Ce bateau est un bijoux, tout au cour de votre <strong>visite maritime ...</strong>
               </span> <br>
-              <button type="button" name="btn_attraction" class="btn btn-warning">Plus d'info</button>
+              <button type="button" name="btn_attraction" class="btn btn-info  btn-lg">Plus d'info</button>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <img src="assets/img/mainImage/mainBateau2.png" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4>Diamonds</h4>
               <span class="text-muted">vous pourrez passez un moment magnifique <strong>...</strong> </span> <br>
-              <button type="button" name="btn_attraction" class="btn btn-warning">Plus d'info</button>
+              <button type="button" name="btn_attraction" class="btn btn-primary btn-lg  ">Plus d'info</button>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <img src="assets/img/mainImage/mainBateau3.png"  width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
 		            <h4>Ruby</h4>
               <span class="text-muted">Ce nom fait rêve  n'est-ce-pas! Vous ne rêvez pas <strong>...</strong></span> <br>
-              <button type="button" name="btn_attraction" class="btn btn-warning">Plus d'info</button>
+              <button type="button" name="btn_attraction" class="btn btn-danger  btn-lg">Plus d'info</button>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
               <img src="assets/img/mainImage/mainBateau4.png"  width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4>Luxe</h4>
-              <span class="text-muted">Ce bateau est le luxe en personne, Alors qu'entendez-vous<strong>...</strong></span>
-              <button type="button" name="btn_attraction" class="btn btn-warning">Plus d'info</button>
+              <span class="text-muted">Ce bateau est le luxe en personne, Alors qu'entendez-vous<strong>...</strong></span> <br>
+              <button type="button" name="btn_attraction" class="btn btn-success  btn-lg">Plus d'info</button>
             </div>
           </div>
           <!----------------------------------------
@@ -234,7 +230,7 @@
                 <br> <div class="Chambre"><br>
                   <div class="col-md-8 col-xs-12 col-md-8">
                     <h2>Oh yeah, les plats servits <span class="text-muted">sont magique.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <p class="lead">Des nourriture de qualités supérieur, la proprété, l'équilibre, la douceur, l'energie, la force, la vivacité, la santé, tout ces facteurs sont comptés par notre chef gastronomique de renommé international.</p>
                   </div>
                   <div class="col-md-4 col-xs-12 col-md-4">
                     <img src="assets/img/services/cuisine2.jpeg" width="300" class="thumbnail" height="200" alt="Service chambre décoiffante">
@@ -248,16 +244,16 @@
                   </div>
                   <div class="col-md-8 col-xs-12 col-md-8">
                     <h2>Oh yeah, vos chambres à bord <span class="text-muted">sont d'un bien fou.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                  </div>
+                    <p class="lead">Le repos est très important c'est d'ailleurs pourquoi notre personnel s'assure à ce que, vos lit d'un confond inestimable, la température reglé automatiquement en fonction des besoins de votre organisme.</p>
+                    </div>
                 </div>
               </div>
               <div class="row">
                 <div class="Chambre">
                   <div class="col-md-8 col-xs-12 col-md-8">
                     <h2>Nos services sont <span class="text-muted">gérer par des professionnels.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                  </div>
+                    <p class="lead">Des professionnels passionnés par leurs métiers, ils ont eu des formations de normes international, ils sont doués , gentilles, très acceuillant, très extravertir. Votre visite touristique en haute sera au milieu de personnes formidables</p>
+                    </div>
                   <div class="col-md-4 col-xs-12 col-md-4">
                     <img src="assets/img/services/porteavion.jpg" width="300" class="thumbnail" height="200" alt="Service chambre décoiffante">
                   </div>
@@ -265,16 +261,17 @@
               </div>
             </div>
           </div><!--Fermeture service qualifier-->
-          <div class="row placeholder" style="background:url('assets/img/services/buddet1.jpg')">
+          <div class="row placeholder">
             <div class="container formulaireContact col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h1 class="title">Contactez-nous</h1>
+                <h1 class="title" style="text-align:center" >Contactez-nous</h1>
                 <hr>
+
                   <form class="form-group" action="index.html" method="post">
                     <fieldset>
                       <legend>Informations sur l'utilisateur</legend>
-                    <input type="text" name="nom" class="form-control" placeholder="Nom & Prenoms"><br>
-                    <input type="text" name="nom" class="form-control" placeholder="Email"><br>
-                    <input type="text" name="nom" class="form-control" placeholder="Contacts"><br>
+                      <input type="text" name="nom" class="form-control" placeholder="Nom & Prenoms"><br>
+                      <input type="text" name="nom" class="form-control" placeholder="Email"><br>
+                      <input type="text" name="nom" class="form-control" placeholder="Contacts"><br>
                   </fieldset>
                   <fieldset>
                       <legend>Message</legend>
@@ -282,18 +279,20 @@
                       <textarea class="col-xs-12 col-sm-12 col-md-12 col-lg-12"name="message" rows="8" cols="139" placeholder="Messages"></textarea>
                   </fieldset>
                   </form>
-            </div>
+                </div>
           </div><!--Fermeture du row du formulaire -->
-          <div class="row placeholder" id="footer" style="background:url('assets/img/services/buddet1.jpg')">
-            <footer class="conatiner">
-
-          </footer>
-          </div><!--Fermeture du col-x -->
-        </div><!-- Row1 -->
+        </div><!--Fermeture du row du footer -->
+        </div><!--Fermeture du col-x -->
       </div><!--  Fremeture du premier Row1 -->
-
+    <div class="container-fluid">
+    <footer class="row">
+      <a href="#"><span id="haut" class="glyphicon glyphicon-arrow-up"></span></a>
+      <center>
+        <h1> Open Water Tourisme<span class="point">.</span></h1>
+        <p class="copyright">Design by Touré Souleymane Copyright © 2019.(+225) 44-33-42-33 / 08-03-01-33 Tous droits réservés.</p>
+        <center>
+    </footer>
     </div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
       <!--Feuille jQuery  -->

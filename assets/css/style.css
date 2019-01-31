@@ -1,10 +1,10 @@
 /*BISMILAHI RAHMANI RAHIM*/
 /*ALAHOUMA SOLI ALA MOUHALIMANA WA ALI MOUHALIMANA WA ADJIL FARADJAHOUM*/
 body{
-  background: url("../img/main5_thumb.jpeg") center no-repeat;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .formulaireConsult{
@@ -26,4 +26,37 @@ body{
 .#carouselPub{
   margin:2% auto 2% 10%;
   width:200px;
+}
+.formulaireContact{
+  font-family: verdana, georgia, cursive;
+  background: #efefef;
+ }
+
+/*--------------------------------------------------
+      MISE EN FORME DU LA SECTION FOOTER
+----------------------------------------------------*/
+footer{
+  background: #444;
+  padding: 85px 0px;
+  text-align: center;
+
+}
+footer h1{
+  text-align: center;
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  margin-left: 15%;
+}
+.copyright{
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  margin-left: 15%;
+
+}
+
+#haut{
+  color: #fff;
+  margin-left: 15%;
+
+
 }
