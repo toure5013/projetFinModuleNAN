@@ -1,0 +1,90 @@
+/*BISMILAHI RAHMANI RAHIM*/
+/*ALAHOUMA SOLI ALA MOUHALIMANA WA ALI MOUHALIMANA WA ADJIL FARADJAHOUM*/
+body{
+  margin: 0;
+  padding:0;
+  font-family: Arial, sans-serif;
+}
+
+#typeCroisiere{
+	padding:-15px;
+}
+
+.formulaireConsult{
+  justify-content: space-between;
+  margin-top:10px;
+  display:flex;
+}
+
+.formulaireConsult input{
+  display: block;
+  margin: 0 2px 0 2px
+}
+
+
+ #carouselPub{ 
+	width:100%; 
+	} 
+.formulaireContact{
+  font-family: verdana, georgia, cursive;
+  background: #efefef;
+ }
+
+/*--------------------------------------------------
+      MISE EN FORME DU LA SECTION FOOTER
+----------------------------------------------------*/
+.footer{
+  background: #232367;
+  text-align: center;
+  padding: 40px;
+
+}
+.footer h1{
+  text-align: center;
+  color: #fff;
+  font-family: 'Crete Round', serif;
+}
+.copyright{
+  color: #fff;
+  font-family: 'Crete Round', serif;
+}
+
+#haut{
+  color: #fff;
+}
+
+
+/**------------------------MEDIA QUERIES-----------------------------**/
+@media screen and (max-width: 768px) {
+  /* #ligne1, #ligne2{ */
+	  /* width:100%; */
+	  /* display:flex; */
+	  /* justify-content:justify-content; */
+	
+  /* } */
+  #differentsCroisière img{
+	width:100px;
+	height:100px;
+  }
+  #differentsCroisière button{
+	  margin:0 0 15px 0;
+  }
+  
+  #carouselPub{
+	  margin-top:50px;
+	  padding:2px;
+	  
+  }
+  .chambre{
+	display:none;
+  }
+  
+  
+
+}
+
+@media screen and (max-width: 1090px) {
+	.chambre{
+	display:none;
+  }
+}
